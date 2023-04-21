@@ -1,0 +1,121 @@
+/* CSS RESET------------------ */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* FIXED WIDTH CONTAINER THAT CENTERS------------------ */
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+/* ASSORTMENT OF BUTTONS------------------ */
+.roundedSearch {
+    color: darkcyan;
+    border-color: darkcyan;
+    border-width: 2px;
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 40px 0px 7px 40px;
+    }
+    
+    .circlePlus {
+    color: white;
+    background-color: #4cdbb7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18pt;
+    border-color: #4cdbb7;
+    margin: 7px 0px 7px 40px
+    }
+    
+    .squareCreate {
+    color: white;
+    font-size: 100%;
+    background-color: dodgerblue;
+    padding: 6px 30px;
+    box-shadow: 5px 5px black;
+    margin: 7px 0px 7px 40px
+    }
+
+
+/* FLEX ROWS AND COLUMNS------------------ */
+.row {
+    display: flex;
+}
+
+.col {
+    background-color: darkcyan;
+    color: white;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+.col-2 {
+    background-color: darkcyan;
+    color: white;
+    flex: 2;
+    margin: 10px;
+    padding: 20px;
+}
+
+.col-3 {
+    background-color: darkcyan;
+    color: white;
+    flex: 3;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/* NAV BAR TEMPLATE------------------ */
+.nav {
+    background-color: rgb(39, 48, 48);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 26pt;
+}
+
+a {
+    color: whitesmoke;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: deepskyblue;
+    color: whitesmoke;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+
+}
+
+
+/* ANOTHER COOL THING------------------ */
+
+
+
+
